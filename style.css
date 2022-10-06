@@ -1,105 +1,107 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: rgb(236, 236, 236);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+body {
+  background-color: rgb(236, 236, 236);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.container{
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 620px;
-    margin: auto;
-    margin-top: 4%;
-    border-radius: 15px;
-    box-shadow: 0 0 3px rgb(0, 0, 0);
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 620px;
+  margin: auto;
+  margin-top: 4%;
+  border-radius: 15px;
+  box-shadow: 0 0 3px rgb(0, 0, 0);
 }
-.nama{
-    height: 70px;
-    border-bottom: 1px solid rgb(241, 241, 241);
+.nama {
+  height: 70px;
+  border-bottom: 1px solid rgb(241, 241, 241);
 }
-.nama > img{
-    border: 3px solid rgb(243, 109, 255);
-    border-radius: 50%;
-    margin-left:15px;
-    margin-top: 15px;
+.nama > img {
+  border: 3px solid rgb(243, 109, 255);
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 .nama > p {
-    margin-left: 70px;
-    margin-top: -35px;
+  margin-left: 70px;
+  margin-top: -35px;
 }
 .iconnama {
-    float: right;
-    margin-top: -20px;
-    margin-right: 15px;
+  float: right;
+  margin-top: -20px;
+  margin-right: 15px;
 }
-.kontenimg{
-    text-align: center;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width:100%;
-    height: 300px;
+.kontenimg {
+  text-align: center;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
 }
-.iconlike{
-    width: 100%;
-    margin-top: 15px;
+.iconlike {
+  width: 100%;
+  margin-top: 15px;
 }
 .iconlike > span {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-.iconlike > .simpan{
-    float: right;
-    margin-right: 15px;
+.iconlike > .simpan {
+  float: right;
+  margin-right: 15px;
 }
-.jmllike{
-    margin-left: 20px;
-    margin-top: 5px;
-    font-weight: bold;
+.jmllike {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
 .caption {
-    /* background-color: aquamarine; */
-    height: 120px;
-    margin-left: 20px;
-    margin-right: 15px;
-
+  /* background-color: aquamarine; */
+  height: 120px;
+  margin-left: 20px;
+  margin-right: 15px;
 }
 .caption > p {
-    font-size: 13px;
+  font-size: 13px;
 }
 /* .caption > p  > .nickname {
     font-weight: bold;
     color: black;
 } */
-.caption > p > span{
-    color: rgb(27, 80, 255);
+.caption > p > span {
+  color: rgb(27, 80, 255);
 }
 
-.bottom{
-    /* background-color: aqua; */
-    width: 100%;
-    margin-top: 9px;
-    margin-left: 0px;
-    margin-right: 15px;
-    height: 50px;
-    border-top: 1px solid rgb(241, 241, 241);
+.bottom {
+  /* background-color: aqua; */
+  width: 100%;
+  margin-top: 9px;
+  margin-left: 0px;
+  margin-right: 15px;
+  height: 50px;
+  border-top: 1px solid rgb(241, 241, 241);
 }
 .bottom > p {
-    margin-left: 55px;
-    margin-top: -27px;
-    color: rgb(155, 155, 155);
+  margin-left: 55px;
+  margin-top: -27px;
+  color: rgb(155, 155, 155);
+}
+.bottom > .kirim {
+  margin-right: 15px;
+  margin-top: -20px;
+  float: right;
+  color: aqua;
+}
+.bottom > span > svg {
+  margin-top: 10px;
+  margin-left: 20px;
+}
 
-}
-.bottom > .kirim{
-    margin-right: 15px;
-    margin-top: -20px;
-    float: right;
-    color: aqua;
-}
- .bottom > span > svg{
-    margin-top: 10px;
-    margin-left: 20px;
+.waktu {
+  font-size: 13px;
+  font-weight: bold;
 }
